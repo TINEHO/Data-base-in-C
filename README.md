@@ -1,7 +1,7 @@
 🗄️ DB_C
 Mini base de données en C
 
-Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
+ Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
 
 ⚙️ Configuration
 Compilation
@@ -18,9 +18,18 @@ Les informations sont stockées dans un fichier binaire pour une gestion persist
 
 🛠️ Commandes Principales
 Pour obtenir de l'aide dans le programme
-Quitter le programme : .exit
-Afficher l'aide : .help
-Vérifier l'utilisation des slots : .status
+Quitter le programme :
+text
+Copier le code
+.exit
+Afficher l'aide :
+text
+Copier le code
+.help
+Vérifier l'utilisation des slots :
+text
+Copier le code
+.status
 Gestion des données
 Voici les commandes disponibles pour manipuler les données :
 
@@ -48,4 +57,3 @@ Tapez une commande parmi insert, show, delete, ou update.
 Suivez les instructions affichées dans le terminal pour insérer ou manipuler les données.
 🧑‍💻 Auteur
 Michaël Rossignol | ESGI 3SI5
-
