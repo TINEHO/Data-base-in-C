@@ -1,3 +1,5 @@
+:
+
 🗄️ DB_C
 Mini base de données en C
 
@@ -7,7 +9,7 @@ Mini base de données en C
 Compilation
 Pour compiler le programme, utilisez la commande suivante :
 
-bash
+c
 Copier le code
 gcc -o db.exe main.c table.c statement.c
 Environnement de Développement
@@ -57,3 +59,4 @@ Tapez une commande parmi insert, show, delete, ou update.
 Suivez les instructions affichées dans le terminal pour insérer ou manipuler les données.
 🧑‍💻 Auteur
 Michaël Rossignol | ESGI 3SI5
+
