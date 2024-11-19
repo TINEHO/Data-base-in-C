@@ -1,7 +1,7 @@
 🗄️ DB_C
 Mini base de données en C
 
-Ce projet a été développé dans le cadre de mes études à l'ESGI sous la supervision de Michaël Rossignol, en 3SI5. Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
+ Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
 
 ⚙️ Configuration
 Compilation
