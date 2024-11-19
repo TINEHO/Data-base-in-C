@@ -1,40 +1,51 @@
-# DB_C
-CC ESGI Michaël Rossignol 3si5 
-Pour compilé :  gcc -o db.exe  main.c table.c statement.c
-IDE : Visual studio code
-compilateur : minGW
-Fichier binaire pour stocker les informations rentées dans la base de données
-Toute les commandes sont en minuscule
+🗄️ DB_C
+Mini base de données en C
 
+Ce projet a été développé dans le cadre de mes études à l'ESGI sous la supervision de Michaël Rossignol, en 3SI5. Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
 
-Pour l'aide dans le programme :
+⚙️ Configuration
+Compilation
+Pour compiler le programme, utilisez la commande suivante :
 
-Pour sortir du progamme .exit 
-Pour avoir une aide .help
-Pour voir combien de slot est utilisé .status
+bash
+Copier le code
+gcc -o db.exe main.c table.c statement.c
+Environnement de Développement
+IDE : Visual Studio Code
+Compilateur : MinGW
+Stockage
+Les informations sont stockées dans un fichier binaire pour une gestion persistante des données.
 
+🛠️ Commandes Principales
+Pour obtenir de l'aide dans le programme
+Quitter le programme : .exit
+Afficher l'aide : .help
+Vérifier l'utilisation des slots : .status
+Gestion des données
+Voici les commandes disponibles pour manipuler les données :
 
-Pour l'utilisation de la base de données :
-Les commandes : insert, show, delete, update
-On ajoute la commande que l'on shouaite utiliser (insert, show, delete) puis un prompt nous indique les informations à renseigner. 
+insert : Ajouter une entrée dans la base.
 
-Insert :
-Pour l'ID il faut obligatoirement un chiffre
-Pour l'email il faut obligatoirement un @ 
+ID : doit être un chiffre.
+Email : doit contenir un @.
+show : Afficher toutes les données de la table.
 
-Show:
-Aucun argument
+Aucun argument requis.
+delete : Supprimer une ligne ou toute la table.
 
-Delete:
-Pour supprimer une ligne il nous faut l'ID
-Pour supprimer la table, il faut supprimer le database.db qui se trouve dans le répertoire
+Pour une ligne : spécifiez l'ID de la ligne à supprimer.
+Pour toute la table : supprimez manuellement le fichier database.db dans le répertoire.
+update : Mettre à jour une ligne existante.
 
-Update:
-Remplace une ligne existante en redemandant les informations 
+Remplace les données d'une ligne en demandant de nouvelles informations.
+💾 Capacités de Stockage
+Nom d'utilisateur : 32 caractères maximum
+Email : 255 caractères maximum
+Nombre de lignes : 1 000 lignes maximum
+📚 Utilisation
+Lancez le programme après compilation.
+Tapez une commande parmi insert, show, delete, ou update.
+Suivez les instructions affichées dans le terminal pour insérer ou manipuler les données.
+🧑‍💻 Auteur
+Michaël Rossignol | ESGI 3SI5
 
-
-Pour les capacités de stockage de la base de données :
-
-32 caractères pour le nom d'utilisateur
-255 caractères pour l'email
-1000 lignes maximum dans la table
