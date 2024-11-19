@@ -1,37 +1,26 @@
-:
-
 🗄️ DB_C
 Mini base de données en C
 
- Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
+Ce projet a été développé dans le cadre de mes études à l'ESGI sous la supervision de Michaël Rossignol, en 3SI5. Il s'agit d'une implémentation simple d'une base de données permettant d'insérer, afficher, mettre à jour et supprimer des entrées via des commandes en ligne.
 
 ⚙️ Configuration
 Compilation
 Pour compiler le programme, utilisez la commande suivante :
 
-c
-Copier le code
 gcc -o db.exe main.c table.c statement.c
+
 Environnement de Développement
 IDE : Visual Studio Code
 Compilateur : MinGW
+
 Stockage
 Les informations sont stockées dans un fichier binaire pour une gestion persistante des données.
 
 🛠️ Commandes Principales
 Pour obtenir de l'aide dans le programme
-Quitter le programme :
-text
-Copier le code
-.exit
-Afficher l'aide :
-text
-Copier le code
-.help
-Vérifier l'utilisation des slots :
-text
-Copier le code
-.status
+Quitter le programme : .exit
+Afficher l'aide : .help
+Vérifier l'utilisation des slots : .status
 Gestion des données
 Voici les commandes disponibles pour manipuler les données :
 
